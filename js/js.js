@@ -145,7 +145,7 @@ $('.Select-box-2 li').click(function () {
 		_name = 'q';
 	} else if (_tihs == 'miji_s') {
 		_tihs = 'https://so.toutiao.com/search';
-		_name = 'dvpf=pc&keyword';
+		_name = 'keyword';
 	} else {
 		_tihs = 'https://www.baidu.com/s';
 		_name = 'wd';
