@@ -138,13 +138,14 @@ $('.Select-box-2 li').click(function () {
 		_tihs = 'https://www.sogou.com/web';
 		_name = 'query';
 	} else if (_tihs == 'pan_s') {
-		_tihs = 'http://www.slimego.cn/search.html';
-		_name = 'q';
+		_tihs = 'https://pan.baidu.com/disk/home';
+		_name = 'search';
 	}else if (_tihs == 'bing_s') {
 		_tihs = 'https://www.bing.com/search';
 		_name = 'q';
 	} else if (_tihs == 'miji_s') {
 		_tihs = 'https://so.toutiao.com/search?dvpf=pc';
+		_name = 'dvpf=pc';
 		_name = 'keyword';
 	} else {
 		_tihs = 'https://www.baidu.com/s';
