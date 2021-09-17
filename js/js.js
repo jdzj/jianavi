@@ -134,7 +134,7 @@ $('.Select-box-2 li').click(function () {
 	} else if (_tihs == 'google_s') {
 		_tihs = 'https://www.google.com/search';
 		_name = 'q';
-	} else if (_tihs == 'sogou_s') {
+	} else if (_tihs == 'weixin_s') {
 		_tihs = 'https://weixin.sogou.com/weixin';
 		_name = 'query';
 	} else if (_tihs == 'pan_s') {
@@ -143,9 +143,12 @@ $('.Select-box-2 li').click(function () {
 	}else if (_tihs == 'bing_s') {
 		_tihs = 'https://www.bing.com/search';
 		_name = 'q';
-	} else if (_tihs == 'miji_s') {
+	} else if (_tihs == 'toutiao_s') {
 		_tihs = 'https://so.toutiao.com/search';
 		_name = 'keyword';
+	} else if (_tihs == 'so_s') {
+		_tihs = 'https://www.so.com/s';
+		_name = 'q';
 	} else {
 		_tihs = 'https://www.baidu.com/s';
 		_name = 'wd';
