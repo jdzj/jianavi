@@ -135,7 +135,7 @@ $('.Select-box-2 li').click(function () {
 		_tihs = 'https://www.google.com/search';
 		_name = 'q';
 	} else if (_tihs == 'sogou_s') {
-		_tihs = 'https://www.sogou.com/web';
+		_tihs = 'https://weixin.sogou.com/weixin';
 		_name = 'query';
 	} else if (_tihs == 'pan_s') {
 		_tihs = 'https://pan.baidu.com/disk/home';
@@ -144,8 +144,7 @@ $('.Select-box-2 li').click(function () {
 		_tihs = 'https://www.bing.com/search';
 		_name = 'q';
 	} else if (_tihs == 'miji_s') {
-		_tihs = 'https://so.toutiao.com/search?dvpf=pc';
-		_name = 'dvpf=pc';
+		_tihs = 'https://so.toutiao.com/search';
 		_name = 'keyword';
 	} else {
 		_tihs = 'https://www.baidu.com/s';
